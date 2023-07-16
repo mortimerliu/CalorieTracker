@@ -102,6 +102,7 @@
 		C8C92E752A60FD0B004D8909 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		C8CCCC542A5A022200814527 /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
 		C8CCCC562A5A025900814527 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C8E9894D2A64AD3300C546F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +216,7 @@
 		C88D37152A5909BC00C42A6B = {
 			isa = PBXGroup;
 			children = (
+				C8E9894D2A64AD3300C546F4 /* README.md */,
 				C88D37202A5909BC00C42A6B /* CalorieTracker */,
 				C88D37312A5909BD00C42A6B /* CalorieTrackerTests */,
 				C88D373B2A5909BD00C42A6B /* CalorieTrackerUITests */,
