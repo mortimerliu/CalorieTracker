@@ -78,6 +78,9 @@ struct DiarySummaryView: View {
                                     }
                                     .foregroundStyle(.primary)
                                 }
+                                .onDelete { offsets in
+                                    diaryStore.stock[date.dateString]?[mealType]?.remove(atOffsets: offsets)
+                                }
                             }
                             Button {
                                 isAdding = true

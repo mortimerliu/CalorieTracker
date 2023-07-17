@@ -31,7 +31,7 @@ struct FoodListView<Destination: View>: View {
                 Toggle(isOn: $onlyFavorite) {
                     Text("Favorite Only")
                 }
-                ForEach(foodStore.stock) { food in
+                ForEach($foodStore.stock) { $food in
                     NavigationLink {
                         destination(food)
                     } label: {
